@@ -16,5 +16,8 @@ class Doctor
     Appointment.new(patient, self, date)
   end
   
+  def appointment
+    Appointment.each do 
+  
   
 end
