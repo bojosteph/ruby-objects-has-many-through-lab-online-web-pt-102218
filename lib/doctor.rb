@@ -16,14 +16,14 @@ class Doctor
     Appointment.new(patient, self, date)
   end
   
-  def appointment
+  def appointments
     Appointment.all.select do |appointment|
       appointment.doctor == self
     end
   end
     
     def patients
-      Appointment.all.map do |appointment|
+      Appointment.map do |appointment|
         appointment.patients
       end
     end
