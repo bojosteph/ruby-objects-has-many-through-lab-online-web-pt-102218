@@ -21,12 +21,10 @@ class Doctor
       appointment.doctor == self
     end
   end
-    
+  
     def patients
-      appointments.map do |appointment|
-        appointment.patients
-      end
+    appointments.map do |appointment|
+      appointment.patients
     end
-  
-  
+  end
 end
