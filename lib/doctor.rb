@@ -25,7 +25,7 @@ class Doctor
       Appointment.all.map do |appointment|
         appointment.patients
       end
-    
+    end
   
   
 end
