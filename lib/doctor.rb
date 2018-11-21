@@ -12,7 +12,7 @@ class Doctor
     @@all
   end
   
-  def new_appou
+  def new_appointment
   
   
 end
